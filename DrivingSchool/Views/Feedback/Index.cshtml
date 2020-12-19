@@ -1,0 +1,42 @@
+@model FeedbackIndexViewModel
+
+@{
+    ViewData["Title"] = "Отзывы";
+}
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container feedback">
+    <h1 class="container-title">Отзывы</h1>
+    <div class="feedback-wrapper">
+        @foreach (var feedback in Model.Feedbacks)
+        {
+            <div class="feedback-item">
+                <span class="feedback-author">@feedback.Fullname</span>
+                <span class="feedback-date">@feedback.CreatedAt.ToString("MM/dd/yyyy")</span>
+                <p class="feedback-content">@feedback.Content</p>
+                @if (User.IsInRole("Admin"))
+                {
+                    <form asp-controller="Feedback" asp-action="Remove" asp-route-id="@feedback.Id" method="post" class="feedback-form-delete">
+                        <button class="feedback-delete-button" type="submit">Удалить</button>
+                    </form>
+                }
+            </div>
+        }
+    </div>
+    <form asp-controller="Feedback" asp-action="Add" method="post" class="feedback-form">
+        <div class="form-group">
+            <input asp-for="Fullname" type="text" placeholder="Имя*" required>
+        </div>
+        <div class="form-group">
+            <input asp-for="Email" type="email" placeholder="Email*" required>
+        </div>
+        <div class="form-group">
+            <textarea asp-for="Content" placeholder="Сообщение" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Оставить отзыв</button>
+        </div>
+    </form>
+</section>
+
+@{ await Html.RenderPartialAsync("_Footer"); }

@@ -1,0 +1,29 @@
+@model SignUpViewModel
+
+@{
+    ViewData["Title"] = "Записаться на занятия";
+}
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container signup-wrapper">
+    <h1 class="container-title">@ViewData["Title"]</h1>
+    <form asp-controller="TrainingApplication" asp-action="SignUp" class="signup-form" method="post">
+        <input asp-for="GroupId" type="hidden">
+        <div class="form-group">
+            <input asp-for="Fullname" type="text" placeholder="ФИО*" required>
+        </div>
+        <div class="form-group">
+            <input asp-for="Email" type="email" placeholder="Email*" required>
+        </div>
+        <div class="form-group">
+            <input asp-for="Phone" type="text" placeholder="Телефон*" required>
+        </div>
+        <div class="form-group">
+            <textarea asp-for="Message" placeholder="Сообщение"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Записаться</button>
+        </div>
+    </form>
+</section>
+@{ await Html.RenderPartialAsync("_Header"); }

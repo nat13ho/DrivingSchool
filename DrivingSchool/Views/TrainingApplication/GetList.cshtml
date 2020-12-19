@@ -1,0 +1,74 @@
+@using System.Globalization
+@model List<TrainingApplication>
+
+@{
+    ViewData["Title"] = "Список заявок";
+}
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container training-applications">
+    <h1 class="container-title">Список заявок</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Клиент</th>
+            <th>Группа</th>
+            <th>Удалить</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var application in Model)
+        {
+            <tr>
+                <td class="client-item-wrapper">
+                    <div class="client-item">
+                        <p class="client-name">
+                            Имя: <br>
+                            <span>@application.Fullname</span>
+                        </p>
+                        <p class="client-phone">
+                            Телефон: <br>
+                            <span>@application.Phone</span>
+                        </p>
+                        <p class="client-email">
+                            Email: <br>
+                            <span>@application.Email</span>
+                        </p>
+                        @if (!string.IsNullOrEmpty(application.Message))
+                        {
+                            <p class="client-message">
+                                Сообщение: <br>
+                                <span>
+                                    @application.Message
+                                </span>
+                            </p>
+                        }
+                    </div>
+                </td>
+                <td class="group-item-wrapper">
+                    <div class="group-item">
+                        <p class="group-date">
+                            Дата набора:<br>
+                            <span>@application.Group.RecruitmentDate.ToString("dd MMMM", CultureInfo.GetCultureInfo("ru-ru"))</span>
+                        </p>
+                        <p class="group-education-form">
+                            Форма обучения:<br>
+                            <span>@application.Group.EducationForm.Name</span>
+                        </p>
+                        <p class="group-education-price">
+                            Цена:<br>
+                            <span>@Math.Round(application.Group.EducationForm.Price, 2) руб</span>
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <form asp-controller="TrainingApplication" asp-action="Remove" asp-route-id="@application.Id" method="post">
+                        <button type="submit" class="table-delete-button">Удалить</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</section>
+@{ await Html.RenderPartialAsync("_Footer"); }

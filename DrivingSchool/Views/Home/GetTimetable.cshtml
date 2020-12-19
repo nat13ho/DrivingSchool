@@ -1,0 +1,35 @@
+@model List<EducationForm>
+
+@{
+    ViewData["Title"] = "Расписание занятий";
+}
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container timetable">
+    <h1 class="container-title">@ViewData["Title"]</h1>
+    <h2>Предлагаем Вам следующие формы обучения:</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Форма обучения</th>
+            <th>Дни</th>
+            <th>Срок</th>
+            <th>Время</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var form in Model)
+        {
+            <tr>
+                <td>@form.Name</td>
+                <td>@DaysHelper.GetDays(form.TrainingDays)</td>
+                <td>@form.Duration мес</td>
+                <td>с @form.StartTime.ToString("HH:mm") по @form.EndTime.ToString("HH:mm")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+</section>
+
+@{ await Html.RenderPartialAsync("_Footer"); }

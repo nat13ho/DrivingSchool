@@ -1,0 +1,76 @@
+@using System.Globalization
+@model GroupIndexViewModel
+
+@{
+    ViewData["Title"] = "Ближайшие наборы";
+}
+
+<link rel="stylesheet" href="~/css/jquery-ui.min.css">
+<script src="~/js/jquery.js"></script>
+<script src="~/js/jquery-ui.min.js"></script>
+<script src="~/js/script.js"></script>
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container recruitment">
+    <h1 class="container-title">@ViewData["Title"]</h1>
+    <h2>Учебный класс по проспекту газеты «Правда», 52 (средняя школа № 155) 10-12 минут ходьбы от ст. М. «Петровщина».</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                <a asp-controller="Group" asp-action="Index" asp-route-sortString="@ViewData["DateSortParam"]">Дата набора</a>
+            </th>
+            <th>Дни обучения</th>
+            <th>Время обучения</th>
+            <th>Стоимость обучения</th>
+            <th>Запись онлайн</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Редактировать</th>
+                <th>Удалить</th>
+            }
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var group in Model.Groups)
+        {
+            <tr>
+                <td>@group.RecruitmentDate.ToString("dd MMMM", CultureInfo.GetCultureInfo("ru-ru"))</td>
+                <td>@DaysHelper.GetDays(group.EducationForm.TrainingDays)</td>
+                <td>с @group.EducationForm.StartTime.ToString("HH:mm") по @group.EducationForm.EndTime.ToString("HH:mm")</td>
+                <td>@Math.Round(group.EducationForm.Price, 2) руб + стоимость топлива</td>
+                <td>
+                    <a asp-controller="TrainingApplication" asp-action="SignUp" asp-route-id="@group.Id" class="signUp">Записаться</a>
+                </td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a asp-controller="Group" asp-action="Edit" asp-route-id="@group.Id" class="edit-button">Редактировать</a>
+                    </td>
+                    <td>
+                        <form asp-controller="Group" asp-action="Remove" asp-route-id="@group.Id" method="post">
+                            <button class="table-delete-button">Удалить</button>
+                        </form>
+                    </td>
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+    @if (User.IsInRole("Admin"))
+    {
+        <form asp-controller="Group" asp-action="Add" method="post" class="recruitment-form">
+            <h1 class="container-title">Добавить группу</h1>
+            <div class="form-group">
+                <input asp-for="Date" type="date" id="datepicker" placeholder="Дата*" required>
+            </div>
+            <div class="form-group">
+                <select asp-for="EducationFormId" asp-items="ViewBag.EducationForms" id="educationForm" required></select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Добавить группу</button>
+            </div>
+        </form>
+    }
+</section>
+@{ await Html.RenderPartialAsync("_Footer"); }

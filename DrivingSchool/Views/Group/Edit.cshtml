@@ -1,0 +1,28 @@
+@model GroupEditViewModel
+
+@{
+    ViewData["Title"] = "Редактировать группу";
+}
+
+<link rel="stylesheet" href="~/css/jquery-ui.min.css">
+<script src="~/js/jquery.js"></script>
+<script src="~/js/jquery-ui.min.js"></script>
+<script src="~/js/script.js"></script>
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container recruitment">
+    <form asp-controller="Group" asp-action="Edit" method="post" class="recruitment-form">
+        <h1 class="container-title">@ViewData["Title"]</h1>
+        <input asp-for="Id" type="hidden">
+        <div class="form-group">
+            <input asp-for="Date" type="date" id="datepicker" placeholder="Дата*" required>
+        </div>
+        <div class="form-group">
+            <select asp-for="EducationFormId" asp-items="ViewBag.EducationForms" id="educationForm" required></select>
+        </div>
+        <div class="form-group">
+            <button type="submit">Сохранить</button>
+        </div>
+    </form>
+</section>
+@{ await Html.RenderPartialAsync("_Footer"); }

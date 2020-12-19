@@ -1,0 +1,49 @@
+﻿@model List<Instructor>
+
+@{
+    ViewData["Title"] = "Главная страница";
+}
+
+@{ await Html.RenderPartialAsync("_Header"); }
+<section class="container advertisement">
+    <div class="advantages-wrapper">
+        <h1>Наши преимущества</h1>
+        <ul class="advantages">
+            <li>Все формы обучения</li>
+            <li>Рассрочка платежа</li>
+            <li>Обучение по экзаменационным маршрутам ГАИ</li>
+            <li>Скидки и акции</li>
+            <li>Опытные и честные инструкторы</li>
+        </ul>
+    </div>
+    <a asp-controller="Group" asp-action="Index" class="signUp">Записаться</a>
+</section>
+<section class="container instructors">
+    <h1 class="container-title">Наши инструкторы</h1>
+    <div class="instructor-wrapper">
+        @foreach (var instructor in Model)
+        {
+            <div class="instructor-item">
+                <img src="@instructor.Image.Path" alt="instructor">
+                <div class="instructor-info">
+                    <p class="instructor-name">@instructor.Fullname</p>
+                    <span class="instructor-experience">
+                        @if (instructor.Experience > 0 && instructor.Experience <= 1)
+                        {
+                            @:Опыт работы: @instructor.Experience год
+                        }
+                        else if (instructor.Experience >= 1 && instructor.Experience < 5)
+                        {
+                            @:Опыт работы: @instructor.Experience года
+                        }
+                        else
+                        {
+                            @:Опыт работы: @instructor.Experience лет
+                        }
+                    </span>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+@{ await Html.RenderPartialAsync("_Footer"); }
