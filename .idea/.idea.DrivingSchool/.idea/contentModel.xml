@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="DrivingSchool" t="IncludeRecursive">
         <e p="ApplicationDbContext.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -103,6 +104,7 @@
             <e p="319839641954.jpg" t="Include" />
             <e p="fe054d1f9fdd2898deea19c77d9cdf09.jpg" t="Include" />
             <e p="instructor.jpg" t="Include" />
+            <e p="Снимок экрана 2020-12-20 в 00.58.13.png" t="Include" />
           </e>
           <e p="img" t="Include">
             <e p="banner.png" t="Include" />

@@ -23,7 +23,6 @@ namespace DrivingSchool
                 
                 var educationForms = new List<EducationForm>
                 {
-                    
                     new EducationForm()
                     {
                         Name = "Утренняя", 
@@ -36,7 +35,6 @@ namespace DrivingSchool
                             DayOfWeek.Monday,
                             DayOfWeek.Wednesday
                         }
-
                     },
                     new EducationForm()
                     {

@@ -1,4 +1,6 @@
 $(document).ready(function () {
     // Datepicker
-    $('#datepicker').datepicker();
+    if (!(navigator.userAgent.indexOf("Chrome") > -1)){
+        $('#datepicker').datepicker();
+    }
 })
