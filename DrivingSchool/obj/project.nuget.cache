@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PliZ2wI9ZZ2Z2NJDtq/vmwyDuFHRUmhGMUoxcIF4eu0So8n25NAyt5jsXmVc1mSkaCXrLTkv0HpPVmkC+rnwUQ==",
+  "dgSpecHash": "IRZrcIRvQADkjpq8XGp+qsIHD8Nrws4u3gBgBDLOfC3SkugPD1DD2eogoJg98gDoV8IHqlcU6/eit9jYADCdXA==",
   "success": true,
-  "projectFilePath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
+  "projectFilePath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
   "expectedPackageFiles": [
     "/Users/natho/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/natho/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",

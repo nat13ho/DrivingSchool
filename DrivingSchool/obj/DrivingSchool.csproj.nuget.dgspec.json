@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj": {}
+    "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj": {}
   },
   "projects": {
-    "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj": {
+    "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
+        "projectUniqueName": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
         "projectName": "DrivingSchool",
-        "projectPath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
+        "projectPath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/DrivingSchool.csproj",
         "packagesPath": "/Users/natho/.nuget/packages/",
-        "outputPath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/obj/",
+        "outputPath": "/Users/natho/Downloads/Учёба/Универ/Файлы/5 семестр/СиБД/Курсач/Danila/DrivingSchool/DrivingSchool/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
