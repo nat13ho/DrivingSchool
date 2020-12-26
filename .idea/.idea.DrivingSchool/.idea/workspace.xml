@@ -24,39 +24,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e16070c2-dd11-457d-9e70-0ad3e1d370c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DrivingSchool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/Views/Account/SignIn.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/Views/Account/SignIn.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/Views/TrainingApplication/SignUp.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/Views/TrainingApplication/SignUp.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrivingSchool/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/bin/Debug/net5.0/DrivingSchool.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/DrivingSchool.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Edit.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/GetList.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/GetTimetable.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Index.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Privacy.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/SignIn.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/SignUp.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_Footer.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_Header.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_Layout.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_MyLayout.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_ViewImports.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/_ViewStart.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/DrivingSchool.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/DrivingSchool.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Views/Account/SignIn.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Views/Account/SignIn.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Views/TrainingApplication/SignUp.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/Debug/net5.0/Razor/Views/TrainingApplication/SignUp.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrivingSchool/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrivingSchool/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/DrivingSchool/wwwroot/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,61 +52,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1F4F0914-5411-4A47-9D76-C00412957903/65/6762dd87/DayOfWeek.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/Group.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/Image.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/Instuctor.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Startup.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/appsettings.json" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Shared/_MyLayout.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Shared/_Footer.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/_ViewStart.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/InstructorIndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/HomeIndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/wwwroot/js/fileInput.js" />
-        <option value="$PROJECT_DIR$/DrivingSchool/SiteInitializer.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Program.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Home/GetEducationForms.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/TrainingDayOfWeek.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/EducationDay.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/EducationFormDay.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/Day.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/EducationForm.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Home/GetTimetable.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/DaysHelper.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/GrroupIndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/GroupIndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/FeedbackIndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/Feedback.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/GroupEditViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/SignUpViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Models/TrainingApplication.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/AccountSignInViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/SignInViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Group/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Feedback/Index.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Group/Index.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/FeedbackController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/GroupController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/ViewModels/GetListViewModel.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Shared/_Header.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/TrainingApplicationController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/TrainingApplication/GetList.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Instructor/Index.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Controllers/InstructorController.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/wwwroot/js/script.js" />
-        <option value="$PROJECT_DIR$/DrivingSchool/DatabaseInitializer.cs" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/TrainingApplication/SignUp.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/Views/Account/SignIn.cshtml" />
-        <option value="$PROJECT_DIR$/DrivingSchool/wwwroot/css/styles.css" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/DrivingSchool/Models/dsadsada.cs" />
+      <option value="$PROJECT_DIR$/DrivingSchool/Models/Person.cs" />
+      <option value="$PROJECT_DIR$/DrivingSchool/Startup.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1lmtAx2lDLkyU4Mr5DngAkZZShV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,7 +126,9 @@
       <workItem from="1608386961352" duration="4891000" />
       <workItem from="1608414272978" duration="449000" />
       <workItem from="1608420005244" duration="2335000" />
-      <workItem from="1608499177809" duration="2762000" />
+      <workItem from="1608499177809" duration="4091000" />
+      <workItem from="1608896948795" duration="122000" />
+      <workItem from="1609022891949" duration="398000" />
     </task>
     <servers />
   </component>

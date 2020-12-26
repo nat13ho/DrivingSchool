@@ -35,7 +35,14 @@ namespace DrivingSchool
             }
             
             services.AddDbContext<ApplicationDbContext>(options => 
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
+                    sqlOptions =>
+                    {
+                        sqlOptions.EnableRetryOnFailure(
+                            maxRetryCount: 4,
+                            maxRetryDelay: TimeSpan.FromMilliseconds(2000),
+                            errorNumbersToAdd: null);
+                    }));
             services.AddIdentity<User, IdentityRole>(options =>
                 {
                     options.Password.RequireDigit = false;

@@ -784,6 +784,11 @@ button[type="submit"]:hover {
     transition: all 200ms ease-in-out;
 }
 
+.login-form .form-group #Email:focus,
+.login-form .form-group #Password:focus {
+    border: 1px deepskyblue;
+}
+
 .login-form button[type="submit"] {
     color: white;
     border: none;
